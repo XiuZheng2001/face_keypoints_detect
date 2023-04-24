@@ -1,0 +1,15 @@
+
+DATA_CONFIG:
+  TRAIN:
+    # path of training dataset，the remote path of the cloud server is used here
+    '/data/training_images_full.npz'
+  TEST:
+    '/data/test_images.npz'
+
+TRAIN_CONFIG:
+  LOSS_FN:
+    MSELoss
+  BATCH_SIZE:
+    4
+  EPOCH:
+    20
